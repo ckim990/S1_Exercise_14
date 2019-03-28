@@ -5,8 +5,8 @@
    Tutorial 12
    Tutorial Case
 
-   Author: 
-   Date:   
+   Author: Christopher Kim
+   Date:   3.28.19
 
    Filename: bc_outline.js
 
@@ -27,3 +27,9 @@
 
 */
 
+window.addEventListener("load", makeOutline);
+
+function makeOutline() {
+      var outline = document.getElementById("outline");
+      var source = document.getElementById("doc");
+}
